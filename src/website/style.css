@@ -1,0 +1,203 @@
+*{
+    font-family: "Geist";
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #000000;
+    overflow-y: scroll  
+}
+
+.web{
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    
+}
+
+ul{
+    padding: 0;
+}
+
+.main{
+    height: auto;
+    
+    margin: 16px 14px;
+}
+
+.main-card{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.main-card h1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #f1f1f1;
+    margin-top: 22px;
+}
+
+.about-me-card{
+    border: 0.5px solid rgb(80, 80, 80);
+    border-radius: 10px;
+    background-color: #111111;
+    margin-top: 16px;
+    padding: 18px;
+    
+}
+
+.about-me-card p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+nav{
+    
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    gap: 12px;
+}
+  
+nav ul li{
+    display: inline-block;
+    
+}
+
+nav ul li a{
+    color: #ffffff8e;
+    font-size: 14px;
+
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.profile-details h1{
+    color: white;
+    font-size: 29px;
+}
+
+.profile-details h4{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 2px;
+
+}
+
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    height: 80vh;
+    gap: 30px;
+}
+
+.profile-picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skills h2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 48px;   
+    font-size: 34px;
+}
+
+
+.skills-container-categories{
+    display: flex;
+    gap: 22px;
+    margin: 16px 0 18px 0;
+}
+
+.skills-container-categories h4{
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.first{
+  
+    padding: 8px 14px;
+    cursor: pointer;
+
+}.second, .third{
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.frontend, .backend, .tools{
+    display: flex;
+}
+
+.experience{
+    margin-top: 190px;
+}
+
+.crud{
+    background-color: #111111;
+    border: 0.5px solid rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 18px;
+}
+
+.crud label{
+    margin-right: 10px;
+}
+
+.crud input{
+    color: black;
+}
+
+.submitted-user{
+    border: 0.5px solid rgb(80, 80, 80);
+}
+.submitted-user button, .add button, .update button,
+.crud button{
+    background-color: lightgreen;
+    border: none;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}.submitted-user button:hover{
+    cursor: pointer;
+    transition: ease .4s;
+    background-color: rgb(71, 167, 71);
+}
+
+.update input, .add input, .username input{
+    color: black;
+}
